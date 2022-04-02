@@ -107,14 +107,14 @@ extension PrimeVideoDashboardController: UITableViewDelegate, UITableViewDataSou
     
     func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
         let dataSet = dataSource[section]
-        
         let headerView = AppThemes.current.getHeaderForTitle(titleString: dataSet.categoryTitle ?? "")
         
         return headerView
     }
     
     func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
-        let headerView = AppThemes.current.getHeaderForTitle(titleString: "Featured")
+        let dataSet = dataSource[section]
+        let headerView = AppThemes.current.getHeaderForTitle(titleString: dataSet.categoryTitle ?? "")
         
         return headerView.frame.size.height
     }
