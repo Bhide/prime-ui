@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="galleryCarouselCellIdentifier" rowHeight="203" id="KGk-i7-Jjw" customClass="GalleryCarouselCell" customModule="Video_Streaming_App" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="352" height="203"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="352" height="203"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="flY-p1-Q2y">
+                        <rect key="frame" x="0.0" y="0.0" width="352" height="203"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="a3v-Pr-44i">
+                            <size key="itemSize" width="128" height="128"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                    </collectionView>
+                    <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" hidesForSinglePage="YES" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="D5g-bV-FWl">
+                        <rect key="frame" x="30" y="158" width="292" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="40" id="3j1-ug-xQX"/>
+                        </constraints>
+                    </pageControl>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="D5g-bV-FWl" secondAttribute="trailing" constant="30" id="6FS-aH-EA4"/>
+                    <constraint firstAttribute="bottom" secondItem="flY-p1-Q2y" secondAttribute="bottom" id="TTC-Wk-VcR"/>
+                    <constraint firstAttribute="trailing" secondItem="flY-p1-Q2y" secondAttribute="trailing" id="XZC-eR-PdF"/>
+                    <constraint firstAttribute="bottom" secondItem="D5g-bV-FWl" secondAttribute="bottom" constant="5" id="Y54-mt-Fp8"/>
+                    <constraint firstItem="flY-p1-Q2y" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="fcb-U1-P2S"/>
+                    <constraint firstItem="flY-p1-Q2y" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="hyw-8M-KW8"/>
+                    <constraint firstItem="D5g-bV-FWl" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="30" id="pdG-6h-Sra"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="collectionView" destination="flY-p1-Q2y" id="1Sz-VD-A7r"/>
+                <outlet property="pageControl" destination="D5g-bV-FWl" id="UGQ-D9-GDH"/>
+            </connections>
+            <point key="canvasLocation" x="160.86956521739131" y="163.05803571428569"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

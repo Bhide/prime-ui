@@ -1,0 +1,151 @@
+{
+  "data": [
+    {
+      "section-title": "Featured",
+      "serial-number": 0,
+      "carousel-type": "full-width-banner",
+      "content": [
+        {
+          "movie-name": "Pawankhinda",
+          "audience-type": "U/A 13+",
+          "ratings": 9,
+          "thumb-image": "",
+          "length": "2h 40m"
+        },
+        {
+          "movie-name": "Pushpa",
+          "audience-type": "U/A 13+",
+          "ratings": 8,
+          "thumb-image": "",
+          "length": "2h 20"
+        },
+        {
+          "movie-name": "Jalsa",
+          "audience-type": "U/A 13+",
+          "ratings": 9,
+          "thumb-image": "",
+          "length": "1h 40m"
+        },
+        {
+          "movie-name": "No Time to Die",
+          "audience-type": "U/A 16+",
+          "ratings": 9,
+          "thumb-image": "",
+          "length": "2h 40m"
+        },
+        {
+          "movie-name": "Dune",
+          "audience-type": "U/A 16+",
+          "ratings": 9,
+          "thumb-image": "",
+          "length": "2h 40m"
+        },
+        {
+          "movie-name": "Tukaram",
+          "audience-type": "U",
+          "ratings": 9,
+          "thumb-image": "",
+          "length": "2h 40m"
+        }
+      ]
+    },
+    {
+      "section-title": "Continue Watching",
+      "serial-number": 1,
+      "carousel-type": "square-tile-items",
+      "content": [
+        {
+          "movie-name": "Pawankhinda",
+          "audience-type": "U/A 13+",
+          "ratings": 9,
+          "thumb-image": "",
+          "length": "2h 40m"
+        },
+        {
+          "movie-name": "Pushpa",
+          "audience-type": "U/A 13+",
+          "ratings": 8,
+          "thumb-image": "",
+          "length": "2h 20"
+        },
+        {
+          "movie-name": "Jalsa",
+          "audience-type": "U/A 13+",
+          "ratings": 9,
+          "thumb-image": "",
+          "length": "1h 40m"
+        },
+        {
+          "movie-name": "No Time to Die",
+          "audience-type": "U/A 16+",
+          "ratings": 9,
+          "thumb-image": "",
+          "length": "2h 40m"
+        },
+        {
+          "movie-name": "Dune",
+          "audience-type": "U/A 16+",
+          "ratings": 9,
+          "thumb-image": "",
+          "length": "2h 40m"
+        },
+        {
+          "movie-name": "Tukaram",
+          "audience-type": "U",
+          "ratings": 9,
+          "thumb-image": "",
+          "length": "2h 40m"
+        }
+      ]
+    },
+    {
+      "section-title": "New Releases",
+      "serial-number": 2,
+      "carousel-type": "rectangular-width-banner",
+      "content": [
+        {
+          "movie-name": "Pawankhinda",
+          "audience-type": "U/A 13+",
+          "ratings": 9,
+          "thumb-image": "",
+          "length": "2h 40m"
+        },
+        {
+          "movie-name": "Pushpa",
+          "audience-type": "U/A 13+",
+          "ratings": 8,
+          "thumb-image": "",
+          "length": "2h 20"
+        },
+        {
+          "movie-name": "Jalsa",
+          "audience-type": "U/A 13+",
+          "ratings": 9,
+          "thumb-image": "",
+          "length": "1h 40m"
+        },
+        {
+          "movie-name": "No Time to Die",
+          "audience-type": "U/A 16+",
+          "ratings": 9,
+          "thumb-image": "",
+          "length": "2h 40m"
+        },
+        {
+          "movie-name": "Dune",
+          "audience-type": "U/A 16+",
+          "ratings": 9,
+          "thumb-image": "",
+          "length": "2h 40m"
+        },
+        {
+          "movie-name": "Tukaram",
+          "audience-type": "U",
+          "ratings": 9,
+          "thumb-image": "",
+          "length": "2h 40m"
+        }
+      ]
+    }
+  ]
+}
